@@ -115,7 +115,7 @@ export default function Post({ postData }) {
                       <div className="article__content-wrap">
                         <div className="article__featured-image article__featured-image--block breakout">
                           <Image
-                            src="https://techcrunch.com/wp-content/uploads/2021/01/DPR-domain.jpg?w=730&amp;crop=1"
+                            src={postData?.jetpack_featured_media_url}
                             width="1300"
                             height="794"
                           />
