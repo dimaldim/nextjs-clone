@@ -18,7 +18,7 @@ export default function Post({ postData }) {
   return (
     <Layout>
       <Head>
-        <title>Test title</title>
+        <title>{postData?.title?.rendered}</title>
       </Head>
       {router.isFallback ? (
         <div>Loading</div>
