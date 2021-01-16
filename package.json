@@ -1,0 +1,22 @@
+{
+  "name": "mq-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@svgr/webpack": "^5.5.0",
+    "html-react-parser": "^1.1.1",
+    "lodash": "^4.17.20",
+    "next": "^10.0.4",
+    "react": "17.0.1",
+    "react-device-detect": "^1.15.0",
+    "react-dom": "17.0.1",
+    "react-headroom": "^3.1.0",
+    "sass": "^1.30.0",
+    "sharp": "^0.26.3"
+  }
+}
